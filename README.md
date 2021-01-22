@@ -11,6 +11,7 @@ def insertationSort(T):
     i=i+1
   return T
 
+
 from random import randint 
 T=[randint(1,100) for x in range(10)]
 print(insertationSort(T))
