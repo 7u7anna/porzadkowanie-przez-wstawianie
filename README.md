@@ -1,7 +1,7 @@
 # porzadkowanie-przez-wstawianie
 def insertationSort(T):
   n=len(T)
-  for i in range(1,n):
+  for i in range(n):
     pom=T[i]
     k=i-1
     while k>=0 and T[k]>pom:
